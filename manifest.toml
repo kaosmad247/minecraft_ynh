@@ -81,12 +81,12 @@ ram.runtime = "50M"
         in_subdir = false
         extract = false
         
-        #[resources.sources.spigot]
-        #url = "https://download.getbukkit.org/spigot/spigot-1.21.jar"
-        #sha256 = ""
-        #rename = "server.jar"
-        #in_subdir = false
-        #extract = false
+        [resources.sources.spigot]
+        url = "https://download.getbukkit.org/spigot/spigot-1.21.jar"
+        sha256 = ""
+        rename = "server.jar"
+        in_subdir = false
+        extract = false
 
     [resources.ports]
     main.default = 25565
