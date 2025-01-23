@@ -33,8 +33,8 @@ ram.runtime = "50M"
     ask.en = "Select your server"
     ask.fr = "Choisir votre serveur"
     type = "select"
-    choices = ["vanilla", "vanilla-snapshot", "paper"]
-    default = "vanilla"
+    choices = ["vanilla", "vanilla-snapshot", "paper", "spigot"]
+    default = "spigot"
 
     [install.ram]
     ask.en = "Set the memory limit for the server. Convert the number to mebibytes (binary MB): for example, 2GB = 2048, 4GB = 4096..."
